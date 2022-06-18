@@ -1,0 +1,22 @@
+#login {
+	color: white;
+		}
+#centFVid {
+	position: absolute;
+	z-index: -200;
+	}
+	
+.bg { 
+	background-image: url("backgrounds/Beau Segal.jpg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover;
+	}
+.buttbottcent {
+	position: absolute;
+	top: 50%;
+  	right: 30%;
+	}
+input[type="password"],input[type="text"]{
+	color: black;
+}

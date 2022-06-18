@@ -1,0 +1,38 @@
+/*LOGIN CSS*/
+#bgIndex { 
+	background: url("backgrounds/indexBackground.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+	}
+#bgLogReg {
+  background: url("backgrounds/loginBackground.jpg") no-repeat center center fixed; 
+  background-size: 100% 100%;
+}
+.buttbottcent {
+	position: absolute;
+	top: 6%;
+  right: 45%;
+  overflow: hidden;
+	}
+
+
+
+input[type="password"],input[type="text"]{
+	color: black;
+}
+input[type="password"],input[type="text"]:focus{
+  outline: none;
+}
+#login {
+	color: white;
+		}
+#centFVid {
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}

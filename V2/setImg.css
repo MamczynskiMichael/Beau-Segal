@@ -1,0 +1,320 @@
+/*General purpose CSS used throughout*/
+
+
+html, body {
+  height: 100%;
+  outline: none;
+
+}
+
+
+body {
+
+}
+a {
+
+	color: #00A2F0;
+}
+
+.btn-primary {
+	background-color: #00A2F0;
+	border-color: #00A2F0;
+}
+
+
+main {
+
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  min-height: 100%;
+  border-right: 1px solid #F2F2F2;
+  border-left: 1px solid #F2F2F2;
+  padding: 10px;
+  margin-top: 3%;
+}
+
+
+@media screen and (max-width: 1440px){
+	#allButMain {
+	margin-top: 5%;
+	}
+}
+
+
+@media screen and (max-width: 1024px){
+	#allButMain {
+	margin-top: 6%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	main {
+		width: 100%;
+	}
+	#profileContainer{
+		width: 100%;
+	}
+	.postImg{
+		width: 100%;
+	}
+	#allButMain {
+		margin-top: 25%;
+	}
+	.search-box input[type="text"]{
+		display: none;
+}
+	#profileForm{
+		display: none;
+}
+
+ }
+
+
+#profileForm{
+	display: block;
+	position: fixed;	
+	width: 15%;
+	right: 0px;
+	z-index: 100;
+	
+
+}
+
+
+#VAGprofilepic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vw;
+	height: 10vw;
+	
+}
+#VAGprofilename{
+	display: block;
+	margin-right: auto;
+	word-wrap: break-word;
+}
+#usersprofilepic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10vw;
+	height: 10vw;
+	
+}
+
+#profilePic{
+	margin: 5px;
+	width: 3vw;
+    height: 3vw;
+    background-size: cover;
+    display: inline-block;
+}
+
+
+
+.carousel-item {
+	height: 100vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}	
+
+
+#profileContainer {
+
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+.postImg {
+	width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 5%;
+	padding-top: 2%;
+  
+}
+
+.FocusedPost {
+	width: 50%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: left;
+}
+
+#frontPagePost {
+	width: 50%;
+	height: auto;
+    display: block;
+    margin-top: 2vh;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border: 3px solid #EEEEEE;
+  	border-radius: 5%;
+
+}
+#frontPagePost:hover {
+	transition: background-color 0.5s ease;
+ 	background-color: #f8f9fa;
+}
+
+#post {
+	padding: 4% 8%;
+	border-radius: 5%;
+	word-wrap: break-word;
+}
+
+#post:hover {
+ 	transition: background-color 0.5s ease;
+ 	background-color: #f8f9fa;
+ }
+
+
+
+
+/*Comments*/
+
+#commentsForm {
+	margin-top: 5%;
+	margin-left: 10%;
+  	margin-right: 10%;
+}
+#comments {
+	margin-left: 10%;
+  	margin-right: 10%;
+  	margin-top: 2%;
+}
+#commentText{
+	font-size: medium;
+	margin-left: 8%;
+}
+
+
+/*Voting button*/
+#voteButtons {
+    display: inline;
+    float: right;
+    margin-top: 2.5%;
+    width: 40%
+}
+#upvoteButton{
+	background-image: url("mainArt/upvote.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: none;
+    background-color: white;
+	height: auto;
+    float: right;
+    padding: 10%;
+    width: 35%;
+}
+#upvoteButton:hover, #upvoteSel:hover{
+	transition: background-color 0.5s ease;
+	background-color: #00A2F0;
+	border-radius: 50%;
+}
+#downvoteButton{
+	background-image: url("mainArt/downvote.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: none;
+    background-color: white;
+	height: auto;
+    float: right;
+   	padding: 10%;
+    width: 35%;
+}
+#downvoteButton:hover, #downvoteSel:hover {
+	transition: background-color 0.5s ease;
+	background-color: #00A2F0;
+	border-radius: 50%;
+}
+
+#upvoteSel{
+	background-image: url("mainArt/upvoteSelected.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: none;
+    background-color: white;
+	height: auto;
+    float: right;
+    padding: 10%;
+    width: 35%;
+}
+#downvoteSel{
+	background-image: url("mainArt/downvoteSelected.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: none;
+    background-color: white;
+	height: auto;
+    float: right;
+   	padding: 10%;
+    width: 35%;
+}
+
+.upvoteCount{
+	padding-top: 8%;
+}
+
+
+/*Search*/
+.search-box{
+    width: 15%;
+    float: left;
+    position: fixed;
+    display: inline-block;
+    font-size: 14px;
+
+}
+.search-box input[type="text"]{
+    height: 32px;
+    padding: 5px 10px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+    outline: none;
+    }
+.result{
+	font-size: 200%;
+    position: absolute;        
+    z-index: 999;
+    top: 100%;
+    left: 0;
+    background-color: #EEEEEE;
+}
+.search-box input[type="text"], .result{
+
+    width: 100%;
+    box-sizing: border-box;
+}
+/* Formatting result items */
+.result p{
+
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+.result p:hover{
+     background: #f2f2f2;
+}
+
+

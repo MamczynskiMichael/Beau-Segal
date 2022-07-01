@@ -6,7 +6,8 @@ As this is the first website is unorganized, but many different files incorporat
 ### Versions
 V0: contains basic ideas I had when first starting. Most of which has been overhauled </br>
 V0.5-1.5: have been omitted to simplify this repository </br>
-V2: Current live version of the site </br>
+V2: Nonresponsive version </br>
+V3: Responsive and live site </br>
 ### Structure
 -	Root: Contains all the PHP code as well as CSS and JS. This is bad practice and future projects have focused on organization. Interesting files are *searchBar.php* and *createAccount.php* 
 -	Root\Users: User accounts that are generated have images stored here in monolithic fashion
@@ -16,6 +17,6 @@ V2: Current live version of the site </br>
 ### Improvements – Three things I could have done differently for major improvements
 1.	Separate PHP, JS, CSS, and HTML pages to their own folders
 2.	Rewrite entire site in MVC pattern with PHP to reuse code effectively and add security
-3.	Offload Root\Users,\ProfilePictures,\mainArt,\backgrounds to cloud services such as AWS S3
+3.	Offload Root\Users,\ProfilePictures,\mainArt,\backgrounds to cloud services such as AWS buckets
 
 

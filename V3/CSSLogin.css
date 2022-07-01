@@ -1,0 +1,31 @@
+/*LOGIN CSS*/
+html, body {
+  height:100%;
+}
+
+#bgIndex { 
+	background: url("backgrounds/indexBackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+#bgLogReg {
+  background: url("backgrounds/loginBackground.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+input[type="password"],input[type="text"]{
+	color: black;
+}
+input[type="password"],input[type="text"]:focus{
+  outline: none;
+}
+#login {
+	color: white;
+		}
